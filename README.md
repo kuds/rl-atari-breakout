@@ -13,7 +13,7 @@ Hardware: Google Colab T4
 
 | Model Type | Average Reward | Training Time | Total Training Steps |
 |------------|----------------|---------------|----------------------|
-| PPO        |                |               |                      |
+| PPO        | 212.60         |               | 5,000,000            |
 | DQN        |                |               |                      | 
 
 
