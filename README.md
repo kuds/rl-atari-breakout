@@ -1,5 +1,9 @@
 # Beginner's Guide to Model-Based Reinforcement Learning (MBRL) with Atari's Breakout
 
+## Simulated Policy Learning (SimPLe)
+
+![](/Images/atari_breakout_simple.gif)
+
 ## Deep Q Learning (DQN)
 
 ![](/Images/atari_breakout_dqn.gif)
@@ -13,6 +17,7 @@ Hardware: Google Colab T4
 
 | Model Type | Average Reward | Training Time | Total Training Steps |
 |------------|----------------|---------------|----------------------|
+| SimPLe     |                |               |                      | 
 | PPO        | 212.60         |               | 5,000,000            |
 | DQN        |                |               |                      | 
 
