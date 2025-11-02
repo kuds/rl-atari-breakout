@@ -13,14 +13,13 @@
 ![](/Images/atari_breakout_ppo.gif)
 
 ## Results
-Hardware: Google Colab T4
+Hardware: Google Colab L4
 
-| Model Type | Average Reward | Training Time | Total Training Steps |
-|------------|----------------|---------------|----------------------|
-| SimPLe     |                |               |                      | 
-| PPO        | 212.60         |               | 5,000,000            |
-| DQN        |                |               |                      | 
-
+| Environment            | Model Type | Average Reward    | Total Training Steps | HuggingFace                                                     |
+|------------------------|------------|-------------------|----------------------|-----------------------------------------------------------------|
+| BreakoutNoFrameskip-v4 | SimPLe     |                   | 5,000,000            |                                                                 |
+| BreakoutNoFrameskip-v4 | PPO        | 187.80 +/- 114.62 | 5,000,000            | [Link](https://huggingface.co/kuds/atari-breakout-v4-dqn)       |
+| BreakoutNoFrameskip-v4 | DQN        | 239.20 +/- 73.63  | 5,000,000            | [Link](https://huggingface.co/kuds/atari-breakout-v4-dqn)      |
 
 ## Finding Theta Blog Posts: 
 - [Beginner's Guide to Model-Based Reinforcement Learning (MBRL) with Atari's Breakout](https://www.findingtheta.com/blog/beginners-guide-to-model-based-reinforcement-learning-mbrl-with-ataris-breakout)
