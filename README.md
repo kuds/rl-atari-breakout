@@ -18,7 +18,7 @@ Hardware: Google Colab L4
 | Environment            | Model Type | Average Reward    | Total Training Steps | HuggingFace                                                     |
 |------------------------|------------|-------------------|----------------------|-----------------------------------------------------------------|
 | BreakoutNoFrameskip-v4 | SimPLe     |                   | 5,000,000            |                                                                 |
-| BreakoutNoFrameskip-v4 | PPO        | 187.80 +/- 114.62 | 5,000,000            | [Link](https://huggingface.co/kuds/atari-breakout-v4-dqn)       |
+| BreakoutNoFrameskip-v4 | PPO        | 187.80 +/- 114.62 | 5,000,000            | [Link](https://huggingface.co/kuds/atari-breakout-v4-ppo)       |
 | BreakoutNoFrameskip-v4 | DQN        | 239.20 +/- 73.63  | 5,000,000            | [Link](https://huggingface.co/kuds/atari-breakout-v4-dqn)      |
 
 ## Finding Theta Blog Posts: 
